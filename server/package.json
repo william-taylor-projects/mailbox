@@ -1,0 +1,21 @@
+{
+  "name": "Mailer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mailer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William Taylor",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.3.2",
+    "body-parser": "^1.15.0",
+    "colors": "^1.1.2",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "html-to-text": "^2.1.0",
+    "imap": "^0.8.17",
+    "mailparser": "^0.5.3"
+  }
+}
