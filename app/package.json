@@ -5,7 +5,7 @@
   "main": "electron-entry.js",
   "scripts": {
     "start": "webpack --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"no tests written\" && exit 0"
   },
   "author": "",
   "license": "ISC",
