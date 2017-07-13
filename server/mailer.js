@@ -27,8 +27,10 @@ const getOptions = () => {
   }
 };
 
-const server = app.listen(3003, () => {
-  console.log("Server is now online @ port " + 3003);
+const port = () => Number(process.argv.slice(-1)[0]);
+
+const server = app.listen(port(), () => {
+  console.log("Server is now online");
 
   const mailService = new MailService();
   const options = getOptions();
