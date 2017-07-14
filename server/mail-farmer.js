@@ -1,6 +1,6 @@
 
 const MailFarm = require("./mail-farm.js");
-const util = require("./util.js");
+const util = require("./mail-util.js");
 
 class MailFarmer {
   constructor(account) {

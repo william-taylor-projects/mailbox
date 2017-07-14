@@ -5,7 +5,8 @@
   "main": "electron-entry.js",
   "scripts": {
     "start": "webpack --watch",
-    "test": "echo \"no tests written\" && exit 0"
+    "test": "echo \"no tests written\" && exit 0",
+    "zip": "electron-packager ./ --platform=win32 --arch=ia32 --overwrite"
   },
   "author": "",
   "license": "ISC",

@@ -1,8 +1,9 @@
 
 const mailLogger = require("./mail-logger.js");
 const MailFarmer = require("./mail-farmer.js");
+const util = require("./mail-util.js");
+
 const express = require("express");
-const util = require("./util.js");
 const aws = require("aws-sdk");
 
 aws.config.update(util.getConfig());

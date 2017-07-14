@@ -56,7 +56,7 @@ export class AppNavbar extends React.Component {
   }
 
   download() {
-    window.open("mailer-win32-x64.zip");
+    window.open("mailbox-win32-x64.zip");
   }
 
   render() {
